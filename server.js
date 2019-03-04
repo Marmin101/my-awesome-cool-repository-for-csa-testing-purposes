@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = "csa!"
 const DiscordTools = require('discordtools');
-const tools = new DiscordTools('NDMwMDUzMjE2MDA1MzkwMzM3.DaKmCA.MamXEay3mBb9r0w7VTUUl7alSdU');
+const tools = new DiscordTools('sister snatched');
 const embed = tools.embed({
 	title: "Help",
 	description: "[Use csa!help <command> for more details on a specific command.]\n\n•  csa!help                   :: shows this page\n•  csa!ping                   :: checks the ping\n•  csa!pluriportail       :: sends a link to pluriportail\n•  csa!didacti      :: sends a link to didacti\n\nMORE COMING SOON! :tada:",
@@ -88,7 +88,7 @@ let args = messageArray.slice(1);
   }
 })
 
-bot.login('NDMwMDUzMjE2MDA1MzkwMzM3.DaKmCA.MamXEay3mBb9r0w7VTUUl7alSdU');
+bot.login('NONONONOONO NOT AGAIN');
 
 bot.on('ready', () => {
   console.log(`Logged in as ${bot.user.tag}! Hello master!`);
